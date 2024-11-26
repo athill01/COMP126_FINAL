@@ -3,10 +3,12 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
 }
 
 header {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .header-image {
@@ -19,6 +21,8 @@ header {
 
 li > a {
   color: white;
+  cursor: pointer;
+  position: relative;
 }
 a:active,
 a:hover {
@@ -74,11 +78,24 @@ a:hover {
 }
 
 .nav-collapse li {
-
   display: block;
 }
 
 
+.navigation::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: red;
+  transition: width .2s;
+}
+
+.navigation:hover::before, .navigation:hover::after {
+  width: 100%;
+}
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -137,9 +154,9 @@ header {
 
 .nav-collapse a {
   text-decoration: none;
-  padding: 0.7em 1em;
+  padding: 0.5em 5px;
   color: white;
-  width: 100%;
+  width: fit-content;
   display: block;
 }
 
@@ -153,11 +170,18 @@ img {
   
 }
 
+.final {
+  margin-bottom: 3px;
+}
+
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
+  display: flex;
+  gap: 20px;
   flex-direction: row;
   align-items: flex-end;
   margin-top: 23px;
+  justify-content: space-between;
 }
   
   .nav-collapse li {
@@ -165,7 +189,8 @@ img {
   }
 
   .nav-collapse a {
-    padding: 1.02em 2em;
+    padding: 1.02em 0 0.4em 0;
+    margin: 0 50px;
     text-align: center;
     border-top: 0;
     margin: 0;
