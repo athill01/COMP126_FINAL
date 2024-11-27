@@ -7,8 +7,21 @@ body {
   font-style: normal;
 }
 
+.mobile-div {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem
+}
+
+.mobile-div a{
+  color: white
+}
 header {
   background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
 }
 
 .header-image {
@@ -45,7 +58,7 @@ a:hover {
   text-indent: -300px;
   position: relative;
   overflow: hidden;
-  width: 60px;
+  width: 80px;
   height: 100px;
   float: right;
 }
@@ -91,6 +104,10 @@ a:hover {
   width: 0;
   background: red;
   transition: width .2s;
+}
+
+.nav-container {
+  max-width: 80px;
 }
 
 .navigation:hover::before, .navigation:hover::after {
@@ -164,10 +181,9 @@ header {
   padding-left: 2em;
 }
 
-img {
+.down-to-the-details {
   height: 100px;
   width: 100px;
-  
 }
 
 .final {
@@ -177,11 +193,15 @@ img {
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
   display: flex;
-  gap: 20px;
+  gap: 3em;
   flex-direction: row;
   align-items: flex-end;
-  margin-top: 23px;
+  margin-top: 20px;
   justify-content: space-between;
+}
+
+.mobile-div {
+  display: none;
 }
   
   .nav-collapse li {
@@ -205,5 +225,9 @@ img {
   }
   .nav-toggle {
     display: none;
+  }
+
+  .nav-container {
+    max-width: none;
   }
 }
