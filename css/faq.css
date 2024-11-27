@@ -1,0 +1,106 @@
+/* Overall grid container; here to accomodiate more sections than just FAQ on this page. */
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    row-gap: 15px;
+    margin: 0 146.5px;
+}
+
+/* Where the FAQ questions and answers will go */
+.faq-grid{
+    grid-row: 1/2;
+}
+.faq-grid-container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    /* border-top: 4px solid #1D84B5; */
+    gap: 15px;
+    border-bottom: 8px solid palevioletred;
+    padding: 60px 15px 20px 15px;
+}
+/* Grid cell definitions */
+.faq-section-header {
+    grid-row: 1/2;
+}
+.question-1{
+    grid-row: 2/3;
+}
+.question-2{
+    grid-row: 3/4;
+}
+.question-3{
+    grid-row: 4/5;
+}
+.question-4{
+    grid-row: 5/6;
+}
+.question-5{
+    grid-row: 6/7;
+}
+/*Font Formatting for divs in FAQ css grid*/
+.faq-section-header h2 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.7em;
+    margin: 0 10px;
+}
+.question-1 h3 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.1em;
+    margin: 0 10px 5px 10px;
+}
+.question-1 p {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    margin: 0px 20px 0 10px;
+}
+
+.question-2 h3 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.1em;
+    margin: 0 10px 5px 10px;
+}
+.question-2 p {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    margin: 0px 20px 0 10px;
+}
+
+.question-3 h3 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.1em;
+    margin: 0 10px 5px 10px;
+}
+.question-3 p {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    margin: 0px 20px 0 10px;
+}
+
+.question-4 h3 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.1em;
+    margin: 0 10px 5px 10px;
+}
+.question-4 p {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    margin: 0px 20px 0 10px;
+}
+
+.question-5 h3 {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    font-size: 1.1em;
+    margin: 0 10px 5px 10px;
+}
+.question-5 p {
+    /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
+    margin: 0px 20px 0 10px;
+}
+
+/* Privacy Policy Section*/
+.privacy-policy-grid{
+    grid-row: 2/3;
+    background-color: lightblue;
+    padding: 0 15px 20px 15px;
+}
