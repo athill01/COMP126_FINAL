@@ -6,7 +6,7 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     row-gap: 15px;
-    margin: 0 146.5px;
+    margin: 30px 146.5px 0 146.5px;
 }
 
 /* Where the FAQ questions and answers will go */
