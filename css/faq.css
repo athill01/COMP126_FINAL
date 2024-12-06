@@ -1,3 +1,8 @@
+.spacer {
+    width: 100%;
+    height: 104px;
+}
+
 /* Overall grid container; here to accomodiate more sections than just FAQ on this page. */
 .grid-container {
     display: grid;
@@ -6,7 +11,7 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     row-gap: 15px;
-    margin: 30px 146.5px 0 146.5px;
+    margin: 10px 20px 0 20px;
 }
 
 /* Where the FAQ questions and answers will go */
@@ -14,14 +19,12 @@
     grid-row: 1/2;
 }
 .faq-grid-container {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
-    /* border-top: 4px solid #1D84B5; */
     gap: 15px;
-    border-bottom: 8px solid palevioletred;
-    padding: 60px 15px 20px 15px;
+    padding: 20px 0 20px 0;
 }
 /* Grid cell definitions */
 .faq-section-header {
@@ -47,6 +50,7 @@
     /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
     font-size: 1.7em;
     margin: 0 10px;
+
 }
 .question-1 h3 {
     /* font-family: "Akaya Kanadaka", "Playpen Sans", sans-serif; */
@@ -101,6 +105,45 @@
 /* Privacy Policy Section*/
 .privacy-policy-grid{
     grid-row: 2/3;
-    background-color: lightblue;
     padding: 0 15px 20px 15px;
+}
+
+h2 {
+text-align: center;
+}
+
+.privacy-policy-grid h3{
+    font-size: 1.2em;
+    margin: 1.5em 10px 0.3em 0;
+}
+
+.privacy-policy-grid p{
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+#pp-intro-h3-top-margin{
+    margin: 0.5em 10px 0.3em 0;
+}
+
+#contact-info{
+    margin-block-end: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+/* Overall grid container; here to accomodiate more sections than just FAQ on this page. */
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    row-gap: 15px;
+    margin: 10px 20px 0 20px;
+}
+
+.privacy-policy-grid p{
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+}
 }
