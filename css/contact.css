@@ -1,0 +1,106 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    min-height: 80vh;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.profile_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile_grid h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profile_grid h2.company {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.profile_grid h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+}
+
+.profile_grid p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.info_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info_grid h2.book {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info_grid h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+}
+
+.info_grid p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.media_link img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.phone_link, .email_link{
+    text-decoration: none;
+}
+
+.phone_link:hover, .phone_link:focus, 
+.email_link:hover, .email_link:focus {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
