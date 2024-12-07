@@ -4,6 +4,7 @@ main {
     gap: 20px; 
     min-height: 80vh;
     padding: 20px;
+    padding-bottom: 0;
     margin-top: 90px;
 }
 
