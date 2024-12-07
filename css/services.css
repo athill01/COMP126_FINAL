@@ -24,27 +24,99 @@ main {
 .services {
     font-family: "Lancelot", serif;
     font-size: 60px;
-    margin: 0px 2%;
+    margin: 0 2%;
 }
 
 .mid-container {
     margin: auto;
     display: flex;
-    width: 85%;
-    background-color: aqua;
+    width: 95%;
     height: 60vh;
     flex-direction: column;
 }
 
 .basic-gold {
     height: 65%;
-    background-color: red;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.basic {
+.box {
     background-color: brown;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     height: 90%;
     width: 45%;
+    border-radius: 10px;
+    display: flex;
+    font-family: "Lancelot", serif;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.basic-title {
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.basic-details {
+    font-size: 20px;
+}
+
+.gold {
+    background-color: #dca709ff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 90%;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.gold-title {
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.gold-details {
+    font-size: 20px;
+}
+
+.platinum {
+    align-self: center;
+    background-color: silver;
+    height: 35%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 96%;
+    border-radius: 10px;
+}
+
+.bottom-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-line-two {
+    border: 1px solid black;
+    width: 28%;
+}
+
+.right-line-two {
+    border: 1px solid black;
+    width: 28%;
+}
+
+.alert {
+    font-size: 10px;
+    margin-top: 10px;
+    justify-self: center;
+    margin-bottom: 20px;
 }
