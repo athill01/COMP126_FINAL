@@ -1,7 +1,9 @@
 main {
     margin-top: 120px;
-    height: 120vh;
+    height: 140vh;
 }
+
+
 
 .top-container {
     width: 100%;
@@ -59,7 +61,7 @@ main {
 
 .basic-title {
     font-size: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-weight: bold;
 }
 
@@ -88,6 +90,7 @@ span {
 }
 .gold-details {
     font-size: 20px;
+    width: 95%;
 }
 
 .platinum {
@@ -118,7 +121,7 @@ span {
     margin-bottom: 10px;
 }
 
-.bottom-container {
+.top-container-two {
     width: 100%;
     display: flex;
     align-items: center;
@@ -142,3 +145,175 @@ span {
     margin-bottom: 20px;
 }
 
+.outer-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Lancelot", serif;
+}
+
+.left-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.stationed-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.stationed-details {
+    width: 90%;
+    margin-left: 3%;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+.travel-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 8%;
+}
+
+.travel-details {
+    width: 90%;
+    margin-left: 3%;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+.img-container {
+    width: 45%;
+    position: relative;
+    height: 100%;
+    min-width: 235.05px;
+}
+
+
+.googlemap-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .mid-container {
+        flex-direction: row;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+   
+    .box {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        font-family: "Lancelot", serif;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+    }
+
+    
+
+    .basic {
+        grid-row: 1/2;
+        grid-column: 1/2
+    }
+
+    .gold {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .platinum {
+        grid-row: 1/2;
+        grid-column: 3/4
+    }
+
+    .mid-container {
+    margin: auto;
+    display: flex;
+    width: 95%;
+    height: 54vh;
+    flex-direction: column;
+}
+    .platinum {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 65%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    font-family: "Lancelot", serif;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+    }
+
+
+
+
+    .stationed-title {
+        font-size: 40px;
+    }
+
+    .stationed-details {
+        font-size: 24px;
+        margin-bottom: none;
+    }
+    .travel-title {
+        font-size: 40px;
+    }
+
+    .travel-details {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .services {
+        font-size: 64px;
+    }
+    
+    .stationed-title {
+        font-weight: bold;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+    
+    .stationed-details {
+        margin-bottom: 0;
+    }
+    
+    .travel-title {
+        margin-bottom: 3%;
+        margin-top: 6%;
+    }
+    
+    .travel-details {
+        margin-bottom: 5%;
+    }
+
+    footer {
+        margin-top: 5%;
+    }
+
+}
