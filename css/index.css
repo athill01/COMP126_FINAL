@@ -1,0 +1,72 @@
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+    height: 120vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+
+.title-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    background-color: none;
+    font-family: "Lancelot", serif;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.description {
+    grid-column: 1/2;
+    grid-row: 2/3
+}
+
+.button {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #890404ff;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-self: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lancelot", serif;
+    transition: all 750ms;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.button:hover, .button:focus {
+  cursor: pointer;
+  background-color: #ea4b48;
+}
+
+@media screen and (min-width: 768px) {
+
+    .title-box {
+        width: 100%;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    
+    main {
+        margin-top: 120px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+    }
+
+    .button {
+        
+    }
+}
