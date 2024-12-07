@@ -1,0 +1,50 @@
+main {
+    margin-top: 120px;
+    height: 120vh;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.right-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.services {
+    font-family: "Lancelot", serif;
+    font-size: 60px;
+    margin: 0px 2%;
+}
+
+.mid-container {
+    margin: auto;
+    display: flex;
+    width: 85%;
+    background-color: aqua;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.basic-gold {
+    height: 65%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.basic {
+    background-color: brown;
+    height: 90%;
+    width: 45%;
+}
