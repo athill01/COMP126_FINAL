@@ -2,7 +2,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.5fr;
     height: 120vh;
     width: 100%;
     margin: auto;
@@ -26,18 +26,35 @@ main {
 }
 
 .description {
-    grid-column: 1/2;
-    grid-row: 2/3
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: #890404ff;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-self: center;
+    color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lancelot", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.details {
+    font-size: 1rem
 }
 
 .button {
-    grid-row: 3/4;
+    grid-row: 4/5;
     grid-column: 1/4;
     background-color: #890404ff;
     width: 70%;
-    height: 40%;
+    height: 80%;
     display: flex;
     justify-self: center;
+    align-self: end;
     color: white;
     align-items: center;
     justify-content: center;
@@ -50,6 +67,49 @@ main {
 .button:hover, .button:focus {
   cursor: pointer;
   background-color: #ea4b48;
+}
+
+.images {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #4ec8e1;
+    display: flex;
+    width: 80%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.truck-div {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    position: relative;
+}
+
+.car-div {
+    display: flex;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    margin-left: 2%;
+}
+
+.car-img, .truck-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,5 +128,13 @@ main {
 
     .button {
         
+    }
+
+    .description {
+        margin: auto;
+    }
+
+    .images {
+        display: none;
     }
 }
