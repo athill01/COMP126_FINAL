@@ -45,15 +45,17 @@ main {
     align-items: center;
     font-family: "Lancelot", serif;
     font-size: 1.8rem;
-    
     text-align: center;
+    justify-content: center;
 }
 
 .details {
+    display: flex;
     font-size: 1.25rem;
     margin-top: 2%;
     width: 90%;
     padding-bottom: 3%;
+    align-self: center;
 }
 
 .button {
@@ -123,12 +125,43 @@ main {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(31, 29, 29);
     margin-top: 2%;
+}
+
+.bottom {
+    margin-left: 3%;
 }
 .footer-logo {
     height: 100px;
     width: 100px;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    flex-flow: column;
+}
+
+.LLC {
+    font-family: "Lancelot", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.license {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
 }
 
 @media screen and (min-width: 768px) {
