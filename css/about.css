@@ -1,0 +1,134 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    min-height: 80vh;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 125px 0 0 0;
+
+}
+
+.left-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.right-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.about {
+    font-family: "Lancelot", serif;
+    font-size: 60px;
+    margin: 0px 2%;
+}
+
+.profile_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile_grid h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profile_grid h2.company {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.profile_grid h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+}
+
+.profile_grid p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.profile_pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.review_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.review_grid h2.reviews {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.review_grid h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+    text-align: center;
+}
+
+.review_grid p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.media_link img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.phone_link, .email_link{
+    text-decoration: none;
+}
+
+.phone_link:hover, .phone_link:focus, 
+.email_link:hover, .email_link:focus {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
