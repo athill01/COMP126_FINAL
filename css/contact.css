@@ -5,7 +5,31 @@ main {
     min-height: 80vh;
     padding: 20px;
     padding-bottom: 0;
-    margin-top: 90px;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 125px 0 0 0;
+
+}
+
+.left-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.right-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.contact_head {
+    font-family: "Lancelot", serif;
+    font-size: 60px;
+    margin: 0px 2%;
 }
 
 .profile_grid {
@@ -22,11 +46,6 @@ main {
 .profile_grid h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-}
-
-.profile_grid h2.company {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
 }
 
 .profile_grid h3 {

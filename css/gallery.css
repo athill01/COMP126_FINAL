@@ -1,3 +1,28 @@
+.top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 125px 0 0 0;
+
+}
+
+.left-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.right-line {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.gal_head {
+    font-family: "Lancelot", serif;
+    font-size: 60px;
+    margin: 0px 2%;
+}
+
 .grid_container {
     display: grid;
     grid-template-rows: auto 1fr; 
@@ -5,17 +30,7 @@
     gap: 20px; 
     min-height: 100vh; 
     padding: 20px;
-    margin-top: 90px;
-    justify-items: center;
-    
-}
-
-.gal_head {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    grid-column: span 1; 
-    align-self: center;
+    justify-items: center;    
 }
 
 .card {
