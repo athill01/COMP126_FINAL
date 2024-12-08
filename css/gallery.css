@@ -39,7 +39,6 @@
     grid-template-rows: 70% 30%; 
     align-items: center;
     justify-items: center;
-    background: white;
     border: 2px solid lightgray;
     padding: 10px;
     border-radius: 8px;
@@ -54,7 +53,6 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-bottom: 2px solid lightgray;
 }
 
 .caption {
@@ -78,7 +76,6 @@
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    color: #333;
     grid-column: span 3;
     align-self: center;
 }
@@ -88,7 +85,6 @@
     grid-template-rows: 70% 30%;
     align-items: center;
     justify-items: center;
-    background: #fff;
     border: 2px solid lightgray;
     padding: 10px;
     border-radius: 8px;
@@ -98,7 +94,7 @@
 }
 
 .one, .three, .four, .six{
-    background-color: #E4453A;
+    background-color: #E9675D;
 }
 
 .two, .five{
@@ -109,7 +105,6 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-bottom: 2px solid #ddd;
 }
 
 .caption {
