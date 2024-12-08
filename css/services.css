@@ -207,7 +207,6 @@ span {
     position: relative;
     height: 80%;
     flex-direction: column;
-    max-width: 604px;
 }
 
 
@@ -220,11 +219,12 @@ span {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    max-width: 604px;
 }
 
 .citation {
     display: flex;
-    margin-right: 50%;
+    margin-right: 70%;
     font-size: 12px;
 }
 
