@@ -32,7 +32,7 @@ main {
     margin: 0px 2%;
 }
 
-.profile_grid {
+.company_grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,30 +42,31 @@ main {
     border: 2px solid lightgrey;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Lancelot", serif;
+    background-color: #AFD2E9;
 }
 
-.profile_grid h1 {
+.company_grid h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.profile_grid h2.company {
+.company_grid h2.company {
     font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
-.profile_grid h3 {
+.company_grid h3 {
     font-size: 1.5rem;
     margin: 15px 0 5px;
 }
 
-.profile_grid p {
+.company_grid p {
     font-size: 1rem;
     line-height: 1.5;
     text-align: center;
 }
 
-.profile_pic {
+.company_pic {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -82,6 +83,7 @@ main {
     border: 2px solid lightgray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Lancelot", serif;
+    background-color: #AFD2E9;
 }
 
 
