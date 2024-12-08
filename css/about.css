@@ -41,6 +41,7 @@ main {
     border-radius: 10px;
     border: 2px solid lightgrey;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Lancelot", serif;
 }
 
 .profile_grid h1 {
@@ -80,6 +81,7 @@ main {
     border-radius: 10px;
     border: 2px solid lightgray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Lancelot", serif;
 }
 
 
