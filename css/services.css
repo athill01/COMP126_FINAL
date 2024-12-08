@@ -198,15 +198,16 @@ span {
     flex-direction: column;
     height: 100%;
     width: 70%;
+    align-items: center;
 }
 .img-container {
     display: flex;
     width: 95%;
     max-width: 603.49;
     position: relative;
-    justify-content: flex-end;
     height: 80%;
     flex-direction: column;
+    max-width: 603px;
 }
 
 
@@ -223,7 +224,7 @@ span {
 
 .citation {
     display: flex;
-    margin-right: 15%;
+    margin-right: 50%;
     font-size: 12px;
 }
 
