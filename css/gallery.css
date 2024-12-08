@@ -30,7 +30,8 @@
     gap: 20px; 
     min-height: 100vh; 
     padding: 20px;
-    justify-items: center;    
+    justify-items: center;
+    font-family: "Lancelot", serif;
 }
 
 .card {
