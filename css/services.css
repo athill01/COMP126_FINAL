@@ -212,7 +212,7 @@ span {
 @media screen and (min-width: 768px) {
 
     main {
-        height: 120vh;
+        height: 110vh
     }
     .basic-gold {
         grid-row: 1/2;
@@ -262,11 +262,15 @@ span {
     width: 90%;
     align-self: start;
     justify-self: end;
-    margin-right: 5%;
+    margin-right: 3%;
+    }
+
+    .gold {
+        margin-right: 1%;
     }
 
     .alert {
-
+        margin-top: 2%;
     }
 
     .stationed-title {
