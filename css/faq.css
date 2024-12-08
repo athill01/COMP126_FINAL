@@ -3,6 +3,7 @@
     height: 104px;
 }
 
+
 /* Overall grid container; here to accomodiate more sections than just FAQ on this page. */
 .grid-container {
     display: grid;
@@ -12,6 +13,7 @@
     justify-content: center;
     row-gap: 15px;
     margin: 10px 20px 0 20px;
+    font-family: "Lancelot", serif;
 }
 
 /* Where the FAQ questions and answers will go */
