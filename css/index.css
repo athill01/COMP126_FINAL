@@ -74,11 +74,11 @@ main {
     grid-row: 4/5;
     grid-column: 1/4;
     background-color: #e4453a;
-    width: 40%;
-    height: 90%;
+    width: 240px;
+    height: 61.6px;
     display: flex;
     justify-self: center;
-    align-self: end;
+    align-self: center;
     color: white;
     align-items: center;
     justify-content: center;
@@ -183,8 +183,8 @@ main {
         grid-row: 3/4;
         grid-column: 1/4;
         width: 240px;
-        height: 80%;
-        align-self: center;
+        height: 90px;
+        margin-top: 15px;
     }
 
     .description {
@@ -202,7 +202,7 @@ main {
     .details {
         margin-top: 5%;
         padding: none;
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .images {
