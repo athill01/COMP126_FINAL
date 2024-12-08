@@ -72,14 +72,6 @@
     justify-items: center;
 }
 
-.gal_head {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    grid-column: span 3;
-    align-self: center;
-}
-
 .card {
     display: grid;
     grid-template-rows: 70% 30%;
