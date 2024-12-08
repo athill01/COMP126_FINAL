@@ -33,7 +33,7 @@ main {
     margin: auto;
     display: flex;
     width: 95%;
-    height: 60vh;
+    height: 70vh;
     flex-direction: column;
 }
 
