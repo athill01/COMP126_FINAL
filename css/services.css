@@ -228,7 +228,7 @@ span {
 }
 
 footer {
-    margin-top: 350px;
+    margin-top: 270px;
 }
 @media screen and (min-width: 768px) {
 
@@ -335,7 +335,7 @@ footer {
     }
 
     footer {
-        margin-top: 8%;
+        margin-top: 5%;
     }
 
     .citation {
