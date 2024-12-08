@@ -88,13 +88,13 @@ main {
 
 .button:hover, .button:focus {
   cursor: pointer;
-  background-color: #ea4b48;
+  background-color: #e4453a;
 }
 
 .images {
     grid-row: 3/4;
     grid-column: 1/4;
-    background-color: #4ec8e1;
+    background-color: #AFD2E9;
     display: flex;
     width: 90%;
     height: 95%;
